@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codcentral Inventory System</title>
+    <title>codcentral Inventory System</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
@@ -53,7 +53,7 @@
                         <span class="text-white text-xl font-bold">🛒</span>
                     </div>
                     <div>
-                        <h1 class="text-xl font-bold text-gray-800">Codcentral</h1>
+                        <h1 class="text-xl font-bold text-gray-800">codcentral</h1>
                         <p class="text-xs text-gray-500">Inventory System</p>
                     </div>
                 </div>
@@ -416,7 +416,7 @@
                             <h4 class="font-semibold text-gray-800 mb-2">Fresh Milk 1L</h4>
                             <p class="text-sm text-gray-600 mb-3">SKU: PRD-001</p>
                             <div class="flex items-center justify-between">
-                                <span class="text-lg font-bold text-blue-600">sh3.99</span>
+                                <span class="text-lg font-bold text-blue-600">$3.99</span>
                                 <button class="px-3 py-1 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700">Edit</button>
                             </div>
                         </div>
@@ -425,7 +425,7 @@
                             <h4 class="font-semibold text-gray-800 mb-2">Whole Wheat Bread</h4>
                             <p class="text-sm text-gray-600 mb-3">SKU: PRD-002</p>
                             <div class="flex items-center justify-between">
-                                <span class="text-lg font-bold text-blue-600">sh2.49</span>
+                                <span class="text-lg font-bold text-blue-600">$2.49</span>
                                 <button class="px-3 py-1 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700">Edit</button>
                             </div>
                         </div>
@@ -441,7 +441,7 @@
                         <div class="border rounded-lg p-4 flex items-center justify-between hover:bg-gray-50">
                             <div>
                                 <p class="font-semibold text-gray-800">Order #ORD-2847</p>
-                                <p class="text-sm text-gray-600">Customer: Rachael | Total: sh234.50</p>
+                                <p class="text-sm text-gray-600">Customer: Jane  | Total: sh234.50</p>
                             </div>
                             <span class="px-4 py-2 bg-green-100 text-green-600 rounded-full text-sm font-medium">Completed</span>
                         </div>
@@ -461,5 +461,177 @@
                 <div class="bg-white rounded-xl shadow-sm p-6">
                     <h3 class="text-xl font-bold text-gray-800 mb-6">Supplier Directory</h3>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="border rounded-xl p-6">
+                        <div class="border rounded-xl p-6 hover:shadow-lg transition">
                             <div class="flex items-center space-x-4 mb-4">
+                                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                                    <span class="text-3xl">🏭</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Fresh Farms Co.</h4>
+                                    <p class="text-sm text-gray-600">Dairy & Produce</p>
+                                </div>
+                            </div>
+                            <div class="space-y-2 mb-4">
+                                <p class="text-sm text-gray-600"><span class="font-medium">Contact:</span> +254 717 883147</p>
+                                <p class="text-sm text-gray-600"><span class="font-medium">Email:</span> work.codcentral@gmail.com</p>
+                                <p class="text-sm text-gray-600"><span class="font-medium">Products:</span> 45 items</p>
+                            </div>
+                            <div class="flex space-x-2">
+                                <button class="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Contact</button>
+                                <button class="flex-1 px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition">View Products</button>
+                            </div>
+                        </div>
+                        
+                        <div class="border rounded-xl p-6 hover:shadow-lg transition">
+                            <div class="flex items-center space-x-4 mb-4">
+                                <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
+                                    <span class="text-3xl">🌾</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Organic Harvest Ltd.</h4>
+                                    <p class="text-sm text-gray-600">Organic Products</p>
+                                </div>
+                            </div>
+                            <div class="space-y-2 mb-4">
+                                <p class="text-sm text-gray-600"><span class="font-medium">Contact:</span> +254 717 883147</p>
+                                <p class="text-sm text-gray-600"><span class="font-medium">Email:</span> work.codcentral@gmail.com</p>
+                                <p class="text-sm text-gray-600"><span class="font-medium">Products:</span> 32 items</p>
+                            </div>
+                            <div class="flex space-x-2">
+                                <button class="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Contact</button>
+                                <button class="flex-1 px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition">View Products</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Reports Section -->
+            <section id="reports" class="section-content p-8 hidden">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-white rounded-xl shadow-sm p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-6">Sales Report</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                                <div>
+                                    <p class="text-sm text-gray-600">Today's Sales</p>
+                                    <p class="text-2xl font-bold text-gray-800">sh4,892.00</p>
+                                </div>
+                                <div class="text-green-600">
+                                    <span class="text-sm font-medium">+12.5%</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                                <div>
+                                    <p class="text-sm text-gray-600">This Week</p>
+                                    <p class="text-2xl font-bold text-gray-800">sh28,450.00</p>
+                                </div>
+                                <div class="text-green-600">
+                                    <span class="text-sm font-medium">+8.3%</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                                <div>
+                                    <p class="text-sm text-gray-600">This Month</p>
+                                    <p class="text-2xl font-bold text-gray-800">sh112,890.00</p>
+                                </div>
+                                <div class="text-green-600">
+                                    <span class="text-sm font-medium">+15.2%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-sm p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-6">Top Selling Products</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center space-x-3">
+                                    <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center font-bold text-blue-600">1</div>
+                                    <div>
+                                        <p class="font-medium text-gray-800">Fresh Milk 1L</p>
+                                        <p class="text-sm text-gray-600">1,234 units sold</p>
+                                    </div>
+                                </div>
+                                <span class="text-lg font-bold text-gray-800">sh4,926</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center space-x-3">
+                                    <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center font-bold text-blue-600">2</div>
+                                    <div>
+                                        <p class="font-medium text-gray-800">Whole Wheat Bread</p>
+                                        <p class="text-sm text-gray-600">987 units sold</p>
+                                    </div>
+                                </div>
+                                <span class="text-lg font-bold text-gray-800">sh2,458</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center space-x-3">
+                                    <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center font-bold text-blue-600">3</div>
+                                    <div>
+                                        <p class="font-medium text-gray-800">Organic Eggs</p>
+                                        <p class="text-sm text-gray-600">765 units sold</p>
+                                    </div>
+                                </div>
+                                <span class="text-lg font-bold text-gray-800">sh3,825</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-sm p-6">
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-xl font-bold text-gray-800">Generate Reports</h3>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <button class="p-6 border-2 border-dashed border-gray-300 rounded-xl hover:border-blue-500 hover:bg-blue-50 transition text-center">
+                            <span class="text-4xl mb-3 block">📊</span>
+                            <p class="font-semibold text-gray-800">Inventory Report</p>
+                            <p class="text-sm text-gray-600 mt-1">Full stock analysis</p>
+                        </button>
+                        <button class="p-6 border-2 border-dashed border-gray-300 rounded-xl hover:border-blue-500 hover:bg-blue-50 transition text-center">
+                            <span class="text-4xl mb-3 block">💰</span>
+                            <p class="font-semibold text-gray-800">Sales Report</p>
+                            <p class="text-sm text-gray-600 mt-1">Revenue breakdown</p>
+                        </button>
+                        <button class="p-6 border-2 border-dashed border-gray-300 rounded-xl hover:border-blue-500 hover:bg-blue-50 transition text-center">
+                            <span class="text-4xl mb-3 block">📦</span>
+                            <p class="font-semibold text-gray-800">Stock Movement</p>
+                            <p class="text-sm text-gray-600 mt-1">In/Out analysis</p>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        function showSection(sectionName) {
+            // Hide all sections
+            document.querySelectorAll('.section-content').forEach(section => {
+                section.classList.add('hidden');
+            });
+            
+            // Show selected section
+            document.getElementById(sectionName).classList.remove('hidden');
+            
+            // Update active tab in sidebar
+            document.querySelectorAll('.sidebar-item').forEach(item => {
+                item.classList.remove('active-tab');
+            });
+            event.target.closest('.sidebar-item').classList.add('active-tab');
+            
+            // Update page title
+            const titles = {
+                'dashboard': 'Dashboard',
+                'inventory': 'Inventory Management',
+                'products': 'Product Catalog',
+                'orders': 'Order Management',
+                'suppliers': 'Supplier Directory',
+                'reports': 'Reports & Analytics'
+            };
+            document.getElementById('page-title').textContent = titles[sectionName] || 'Dashboard';
+        }
+    </script>
+</body>
+</html>
